@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+}
+
+.side-bar {
+  width: 300px;
+  background-color: #253141;
+  height: 100vw;
+  padding: 0 20px; /*回答だとサイドバーヘッダーとルームズにそれぞれ指定してる、謎*/
+}
+
+.side-bar-header {
+  height: 100px;
+}
+.rooms {
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+}
+
+.chat {
+  width: calc(100%-300px);
+  background-color: #ffffff;
+  padding:0 40px; /*回答だとチャットヘッダーとメッセージとフォームにそれぞれ指定しててここは書かない、謎*/
+}
+
+.chat-header {
+  height: 100px;
+  /*回答だとpadding:0 40px;*/
+}
+.messages {
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+  padding-top: 46px; /*回答だとpadding:46px 40px 0;*/
+}
+.form {
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 0;/*回答だとpadding:20px 40px;*/
+}
